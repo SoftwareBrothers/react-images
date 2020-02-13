@@ -83,8 +83,7 @@
     "lint": "eslint .",
     "deploy": "cross-env NODE_ENV=production nps publish",
     "start": "webpack-dev-server --progress",
-    "precommit": "flow check && lint-staged",
-    "postinstall": "nps build"
+    "precommit": "flow check && lint-staged"
   },
   "files": [
     "dist",
